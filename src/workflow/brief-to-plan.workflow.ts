@@ -26,6 +26,8 @@ export class BriefToPlanGraph {
     architectureDesign: Annotation<string>(),
     backendTasks: Annotation<string[]>(),
     frontendTasks: Annotation<string[]>(),
+    backendPlan: Annotation<any>(),
+    frontendPlan: Annotation<any>(),
     reformulated: Annotation<string>(),
   });
 

@@ -68,6 +68,7 @@ Also provide:
 
     return {
       frontendTasks: tasks,
+      frontendPlan: plan,
       messages: this.aiNote("Frontend task plan ready."),
     };
   }

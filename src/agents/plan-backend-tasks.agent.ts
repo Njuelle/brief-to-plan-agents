@@ -66,6 +66,7 @@ Also provide:
 
     return {
       backendTasks: tasks,
+      backendPlan: plan,
       messages: this.aiNote("Backend task plan ready."),
     };
   }

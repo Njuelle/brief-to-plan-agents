@@ -1,4 +1,5 @@
 import { BaseMessage } from "@langchain/core/messages";
+import { Plan } from "../schemas/plan.schema";
 
 export type AppState = {
   messages?: BaseMessage[];
@@ -7,6 +8,8 @@ export type AppState = {
   architectureDesign?: string;
   backendTasks?: string[];
   frontendTasks?: string[];
+  backendPlan?: Plan;
+  frontendPlan?: Plan;
   reformulated?: string;
 };
 
