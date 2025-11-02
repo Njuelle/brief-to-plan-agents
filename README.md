@@ -1,4 +1,4 @@
-# Brief to Plan
+# Brief to Plan AI agents
 
 A learning project to explore **LangGraph** for building AI agent workflows. Takes a project brief and generates a detailed technical implementation plan.
 
